@@ -2,8 +2,8 @@
 
 const employeeData = [
   { name: "Ali", performance:     [1, 9, 0, 0, 0] },
-  { name: "Georges", performance: [1, 9, 0, 0, 0] },
-  { name: "Landry", performance:  [0, 1, 0, 0, 0] },
+  { name: "Georges", performance: [1, 7, 0, 0, 0] },
+  { name: "Landry", performance:  [10, 1, 0, 0, 0] },
 ];
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let total = 0;
 
     employee.performance.forEach((value, dayIndex) => {
-      const cellIndex = rowIndex * 5 * dayIndex;
+      const cellIndex = rowIndex * 5 + dayIndex;
       performanceCells[cellIndex].textContent = value;
       total += value;
       totalPerByDay[dayIndex] += value;
