@@ -4,6 +4,7 @@ const employeeData = [
   { name: "Ali", performance:     [1, 9, 0, 0, 0] },
   { name: "Georges", performance: [1, 7, 0, 0, 0] },
   { name: "Landry", performance:  [10, 1, 0, 0, 0] },
+  { name: "Landry", performance:  [1, 4, 0, 0, 0] },
 ];
 
 document.addEventListener("DOMContentLoaded", function () {
