@@ -1,4 +1,32 @@
 /* fichier css pour le style */
-h1{
-    color: blue;    
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+}
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1.5px solid #333;
+  padding: 11px;
+}
+th {
+  background-color: rgb(39, 161, 195);
+  color: #fff;
+}
+
+.performance {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+tr:hover {
+  background-color: #f2f2f2;
 }
